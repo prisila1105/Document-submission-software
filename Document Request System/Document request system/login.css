@@ -1,0 +1,60 @@
+body {
+    min-height: 100vh;
+    background: url(images/log.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    background-color: white;
+    border-radius: 20px;
+    padding: 2vw 3vw;
+    max-width: 500px;
+    border-radius: 10px;
+    width: 100%;
+    min-height: 35vh;
+
+}
+
+input[type="text"], input[type="password"] {
+    padding: 20px;
+    margin: 10px ;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+    background:rgb(235, 230, 230); 
+    font-size: 16px;
+    line-height: 25px;
+    width: 90%;
+    
+
+}
+
+input[type="submit"] {
+    background-color: #587ee9;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    line-height: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #587ee9;
+    font-family: cursive;
+    font-size: 40px;
+}
